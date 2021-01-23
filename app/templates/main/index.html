@@ -20,7 +20,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" style="border-bottom: solid 1px; border-color: grey;">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">헌짱의 개발공간🛠</a>
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,13 @@
                 <!-- <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" /> -->
                 <img class="masthead-avatar mb-5" src="{{ url_for('static', filename='assets/img/avataaars.png') }}" alt="" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">이헌기</h1>
+                <h1 class="masthead-heading text-uppercase user-select-none mb-0" style="padding-bottom: 20px;">이헌기</h1>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Heongilee"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:gjsrl1@gmail.com"><i class="fab fa-google"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/awesome_heonjjang/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100003484819405"><i class="fab fa-facebook"></i></a>
+                </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -51,8 +57,8 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light font-italic mb-1">Skills.</p>
-                <p class="masthead-subheading font-weight-light mb-0">#Python #Java #MySQL #Dart #C++ #C #HTML/CSS/JS</p>
+                <p class="masthead-subheading font-weight-light user-select-none font-weight-bold font-italic mb-1" style="color: rgb(255, 145, 0);">Skills.</p>
+                <p class="masthead-subheading font-weight-light user-select-none mb-0">#Python #Java #MySQL #Flutter/Dart #C++ #C #HTML/CSS/JS</p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -144,8 +150,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">헌짱의 어썸한 프로젝트를 보고싶구나??</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">지금 당장 아래 링크로 궈궈 ~</p></div>
+                    <div class="col-lg-11 ml-auto"><p class="lead">Introduction.</p></div>
+                    <!-- <div class="col-lg-4 mr-auto"><p class="lead">지금 당장 아래 링크로 궈궈 ~</p></div> -->
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">

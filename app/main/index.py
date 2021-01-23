@@ -8,3 +8,7 @@ def index():
     testData = 'testData Array'
     # /main/index.html은 사실 /${project_name}/app/template/main/index.html
     return render_template('/main/index.html', testDataHtml=testData)
+
+@main.route('/test', methods=['GET'])
+def test():
+    return render_template('/main/test.html')
